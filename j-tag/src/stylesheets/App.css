@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #292929;
+}
+
+.openMenu {
+    position: absolute;
+    top: 20;
+    left: 0;
+    transition: ease .5s;
+}
+
+.hiddeMenu {
+    top: 20;
+    left: 100%;
+    transition: ease .5s;
+    display: hidden;
+
+}
